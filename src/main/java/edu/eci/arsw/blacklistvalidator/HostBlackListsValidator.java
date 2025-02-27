@@ -64,6 +64,9 @@ public class HostBlackListsValidator {
     
     
     private static final Logger LOG = Logger.getLogger(HostBlackListsValidator.class.getName());
+
+    public List<Integer> checkHost(String ipaddress, Strin Nthreads){
+    }
     
     
     
