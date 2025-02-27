@@ -67,6 +67,7 @@ public class HostBlackListsValidator {
 
 
     // Nueva version del metodo CheckHost con el parametro adicional de N hilos 
+    //Los N hilos se encargan de optimizar la busqueda
 
     public List<Integer> checkHost(String ipaddress, int N) {
         LinkedList<Integer> blackListOcurrences = new LinkedList<>();
